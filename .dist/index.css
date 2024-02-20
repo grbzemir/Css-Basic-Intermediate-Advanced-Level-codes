@@ -1,0 +1,82 @@
+/* 
+ h2[title="Baslik1"] 
+ {
+  color: red;
+
+ }
+
+ p[title="paragraf1"] 
+ {
+  color: blue;
+  text-align: justify;
+
+ }
+
+ a[target="_blank"] 
+ {
+  color: green;
+
+  
+ }
+
+ input[type="text"]
+ {
+   background-color: yellow;
+ } */
+
+ /* Pseudo Element*/
+
+ p::first-line
+   {
+      color: red;
+      font-weight: bold;
+      word-spacing: 2px;
+      letter-spacing: 2px;
+
+
+   }
+
+   p::first-letter
+   {
+   
+     font-size: 50px;
+     
+   }
+
+   ul li
+   {
+       padding:10px;
+       margin-bottom:10px;
+   }
+
+   /* /ilk elemanda yapılan işllemler */
+
+   ul li:first-child
+   {
+       background-color: red;
+   }
+
+   /* son elemanda yapılan işllemler */
+
+   ul li:last-child
+   {
+       background-color: green;
+   }
+
+   a:visited
+   {
+       color: fuchsia;
+   }
+
+   a:hover
+   {
+       color: black;
+       background:lightblue;
+   }
+
+   a{
+      padding : 5px 10px;
+      text-decoration: none;
+      display: block;
+      width:100px;
+   }

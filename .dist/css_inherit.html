@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Inherit</title>
+
+    <style>
+
+        body
+        {
+            color:cadetblue;
+        }
+
+        ul{
+            color: crimson;
+
+        }
+
+        li{
+            color: darkorange; /* Bu özellik sayesinde li etiketlerinin rengi ul etiketinin rengi olan crimson olur. */
+        }
+
+        a{
+            color: blue; /* Bu özellik sayesinde a etiketlerinin rengi body etiketinin rengi olan cadetblue olur. */ 
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis rem earum quae dolores officia quas
+        porro iure aperiam impedit.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis rem earum quae dolores officia quas
+        porro iure aperiam impedit.</p>
+
+    <a href="#">Link 1</a>
+    <a style=color:inherit; href="#">Link 2</a>
+
+    <ul>
+
+        <li style="color:inherit">Madde 1</li>
+        <li>Madde 2</li>
+        <li>Madde 3</li>
+        <li>Madde 4</li>
+        <li>Madde 5</li>
+
+    </ul>
+
+
+
+</body>
+
+</html>
